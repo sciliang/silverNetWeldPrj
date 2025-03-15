@@ -1,0 +1,19 @@
+#ifndef YINWMOTIONGLOBAL_H
+#define YINWMOTIONGLOBAL_H
+#include "HYYRobotInterface.h"
+#include "RobotSystem.h"
+#include "device_interface.h"
+#include <iostream>
+#include <thread>
+#include "YinwMotion.h"
+#include "device_timer.h"
+#include <glog/logging.h>
+#include "globalfun.h"
+#include "controlcan.h"
+#include "IniParser.h"
+#include <glog/logging.h>
+#include "ControlCanFun.h"
+#include "TaiHuCAN.h"
+#include "IOdeviceControl.h"
+#include "defineConfig.h"
+#endif
